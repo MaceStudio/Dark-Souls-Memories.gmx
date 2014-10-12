@@ -6,13 +6,34 @@
   <datafiles number="1" name="datafiles"/>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_logo</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bac_trees</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="Config">
+      <script>scripts\game_ini.gml</script>
+    </scripts>
+  </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shaderCamera.shader</shader>
     <shader type="GLSLES">shaders\shaderPhantom.shader</shader>
   </shaders>
+  <fonts name="fonts">
+    <font>fonts\fon_main</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\obj_actor</object>
+    <object>objects\obj_dialogue</object>
+    <object>objects\obj_item</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\lev_menu</room>
+    <room>rooms\lev_memoryofknight</room>
+  </rooms>
   <constants number="2">
     <constant name="GM_build_date">0</constant>
     <constant name="GM_version">0</constant>
