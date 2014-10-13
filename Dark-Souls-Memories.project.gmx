@@ -16,6 +16,35 @@
   <scripts name="scripts">
     <scripts name="Config">
       <script>scripts\game_ini.gml</script>
+      <script>scripts\config_load.gml</script>
+      <script>scripts\config_apply.gml</script>
+      <script>scripts\config_save.gml</script>
+      <scripts name="Adfile">
+        <script>scripts\adfile_open_write.gml</script>
+        <script>scripts\adfile_read_file.gml</script>
+        <script>scripts\adfile_read_string.gml</script>
+        <script>scripts\adfile_read_real.gml</script>
+        <script>scripts\adfile_write_real.gml</script>
+        <script>scripts\adfile_write_string.gml</script>
+        <script>scripts\adfile_close.gml</script>
+        <script>scripts\adfile_write_file.gml</script>
+        <script>scripts\adfile_open_read.gml</script>
+      </scripts>
+      <scripts name="Presets">
+        <script>scripts\input_real.gml</script>
+        <script>scripts\input_str.gml</script>
+        <script>scripts\input_validkey.gml</script>
+      </scripts>
+    </scripts>
+    <scripts name="Classes">
+      <scripts name="Actor">
+        <script>scripts\actor_create.gml</script>
+      </scripts>
+      <scripts name="Math">
+        <script>scripts\range.gml</script>
+        <script>scripts\range_add.gml</script>
+        <script>scripts\angle_ndir.gml</script>
+      </scripts>
     </scripts>
   </scripts>
   <shaders name="shaders">

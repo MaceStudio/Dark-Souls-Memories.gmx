@@ -1,4 +1,4 @@
 Dark-Souls-Memories
 ===================
 
-A Dark Souls fan game where the wills of souls bring phantoms to their memories. This repository will be a dump from the private trunk of the team. 
+A Dark Souls fan game built with Game Maker Studio. Thanks to everyone interested in the project, this Github will serve as the team repo, but you're free to offer your contributions as well!
