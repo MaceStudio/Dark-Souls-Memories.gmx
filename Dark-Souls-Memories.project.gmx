@@ -8,6 +8,19 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_logo</sprite>
+    <sprite>sprites\spr_test</sprite>
+    <sprite>sprites\spr_itemtest</sprite>
+    <sprites name="UI">
+      <sprite>sprites\spr_ui_covenants_left</sprite>
+      <sprite>sprites\spr_ui_ep_mid</sprite>
+      <sprite>sprites\spr_ui_covenants_icon</sprite>
+      <sprite>sprites\spr_ui_weapon_back</sprite>
+      <sprite>sprites\spr_ui_souls</sprite>
+      <sprite>sprites\spr_ui_hp_right</sprite>
+      <sprite>sprites\spr_ui_hp_mid</sprite>
+      <sprite>sprites\spr_ui_font</sprite>
+      <sprite>sprites\spr_ui_ep_right</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bac_trees</background>
@@ -58,6 +71,7 @@
     <object>objects\obj_actor</object>
     <object>objects\obj_dialogue</object>
     <object>objects\obj_item</object>
+    <object>objects\obj_ui</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\lev_menu</room>
