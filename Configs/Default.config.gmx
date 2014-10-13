@@ -418,5 +418,9 @@
     <option_xbone_splash_screen_colour>#FFFFFF</option_xbone_splash_screen_colour>
     <option_xbone_texture_page>1024</option_xbone_texture_page>
   </Options>
-  <ConfigConstants/>
+  <ConfigConstants>
+    <constants number="1">
+      <constant name="LAN_ENG">0</constant>
+    </constants>
+  </ConfigConstants>
 </Config>
